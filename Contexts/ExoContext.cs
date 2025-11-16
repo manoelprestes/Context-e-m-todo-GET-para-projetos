@@ -31,5 +31,6 @@ optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;"+ "Database=ExoApi;Tr
 }
 }
 public DbSet<Projeto> Projetos { get; set; }
+public DbSet<Usuario> Usuarios { get; set; }
 }
 }
